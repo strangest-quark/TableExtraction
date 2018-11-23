@@ -1,5 +1,5 @@
 # TableExtraction
-
+A solution to extract tabular data from PDF and Image Files
 ## Extracting tables from PDF
 
 Put instructions to run tabula code here
