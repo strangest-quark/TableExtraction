@@ -1,10 +1,10 @@
 # TableExtraction
 A solution to extract tabular data from PDF and Image Files
-## Extracting tables from PDF
+## PDF Module - Extracting tables from PDF
 
 Put instructions to run tabula code here
 
-## Extracting table data from Images
+## Image Module - Extracting table data from Images
 
 ### Step 1: Generate Searchable PDF from image using OCR
 
@@ -13,7 +13,7 @@ Using tesseract for OCR on input image to produce a sandwich pdf with existing i
 *Follow the commands below to cd into data directory and convert image to searchable pdf.*
 
 ```
-    cd TableExtraction/Image/data
+    cd TableExtraction/Image Module/data
     tesseract 29.jpg 29 -l eng pdf
 ```
  **Sample Searchable PDF**
