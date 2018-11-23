@@ -32,4 +32,5 @@ Using tesseract for OCR on input image to produce a sandwich pdf with existing i
 **Sample Line Clustering**
 ![image](https://drive.google.com/uc?export=view&id=10lRnS1XB9G_E1yLxORPSK7h1MK9X8KGQ)
 
+**OUTPUT**
 *Generated output images and CSV files in Image/generated_output folder*
