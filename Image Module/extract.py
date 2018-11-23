@@ -36,9 +36,9 @@ from pdftabextract.common import (read_xml, parse_pages, save_page_grids, all_a_
 #%% Some constants
 DATAPATH = 'data/'
 OUTPUTPATH = 'generated_output/'
-INPUT_XML = '31.xml'
+INPUT_XML = '28.xml'
 
-N_COL_BORDERS = 5
+N_COL_BORDERS = 4
 MIN_COL_WIDTH = 300  # <- very important! minimum width of a column in pixels, measured in the scanned pages
 
 #%% Some helper functions
