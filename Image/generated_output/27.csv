@@ -1,0 +1,23 @@
+col1,col2,from_page
+Employee Number:,,1
+"Function eo, F",,1
+Designation ;,,1
+Location :,,1
+Bank Details,,1
+Date ofjoining :.,-,1
+,,1
+[AttendanceDetails = = ==,==,1
+| Present,,1
+"‘Earnings=, Amount _GrossSalary Deductions",,1
+Sasi,"15,000.00'",1
+|BASIC + DA,"5,426.00,",1
+| HRA,"8,170.00",1
+| Conveyance,"| 1,600.00'",1
+Medical Allowance,"| 1,250.00:",1
+‘Statutory Bonus,585.00:,1
+Admini Charges,"|2,012.00!",1
+"‘TotalEarnings34,043.00 34,043.00| Total Deductions",,1
+|,|,1
+Amount (in words):,,1
+INR Thirty Two Thousand Forty Three Only,,1
+,,1
