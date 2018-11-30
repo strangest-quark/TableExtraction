@@ -2,7 +2,79 @@
 A solution to extract tabular data from PDF and Image Files
 ## PDF Module - Extracting tables from PDF
 
-Put instructions to run tabula code here
+### Step 1: Loading the PDF using pyPDF module
+
+Using pyPDF module, the number of pages present inside the PDF is extracted for further iteration
+
+*Follow the commands below to cd into data directory and convert image to searchable pdf.*
+
+```
+    cd TableExtraction/PDF Module/
+    python table_extract.py 
+```
+Then the programme displays a prompt as shown below to enter the name of PDF file. 
+### Note: Just Enter the Name of the file (without the ".pdf" extension) 
+
+```
+    Enter the pdf you want to extract the table --> 006  
+```
+The above line loads the 015.pdf file from the dataset and extracts the table content out of it.
+
+### Step 1: Page segmentation and data logging using pyPDF module
+
+Now, all the pages present in the pdf are segmented individually with the name ``` Page_0.pdf ```, ``` Page_1.pdf ``` , so on upto the last page of the pdf. Advantages of Page Segmentation is that,
+
+1. Boosts the speed of algorithm by reducing the file size.
+2. Reduces Spurious inputs to algorithm.
+3. Enables to recognise the exact location of table.
+
+**Sample Page Segmentation view**
+
+![image](https://drive.google.com/file/d/1bgM2aXnMoRnO-EfRv-c-2xGAD2WE7dyY/view?usp=sharing)
+
+### Step 2: Iterating and extracting tables from all PDF's using tabula-py
+
+Tabula-py is a python library which is written upon the java. It uses python commands to recieve the arguments and invoke the ``` .jar ``` files in order to find the tables in a pdf.
+
+```
+    for i in range(0,pag_no): 
+        convert_into('Page_'+str(i)+'.pdf', 'result_'+str(i)+'.csv', output_format = 'CSV')
+``` 
+ 
+The above code is used to iterate over all the ``` Page_.pdf ``` files to extract the table data.
+
+### Step 3: Output data logging and Visualisation
+The tables extracted are stored in the  ``` .CSV ```  format, which enables the user to directly access the tables in pdf's without manual entry.
+
+```    results_0.csv 
+       results_1.csv
+       results_2.csv 
+       ......
+```    
+The above shown is the format of output result logging which contains the table information. The found tables in the pdf are shown in the following format 
+
+```
+    Table found in -----> PAGE3 and stored in -----> result_0.csv
+``` 
+
+### Step 4: Complete sample Output
+
+![image](https://drive.google.com/file/d/1yU2iDmcxB4ULMq07qstO71qZsd9mXjB7/view?usp=sharing) 
+
+PDF file with table in it's 3rd Page.
+
+![image](https://drive.google.com/file/d/1V3-rMcZffvQZHSR13A3C40DwefsSN5YV/view?usp=sharing)
+
+Image of result extracted with the Table Information into the CSV file.
+
+### Advantages of PDF Module: 
+1. No Preprocesssing of PDF's is required.
+2. Faster processing due to Page segmentation technique.
+3. Higher Accuracy to even noisy pages. 
+
+### OUTPUT
+*Generated output CSV files in PDF/generated_output folder*
+
 
 ## Image Module - Extracting table data from Images
 
