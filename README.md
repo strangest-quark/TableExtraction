@@ -74,7 +74,7 @@ Image of result extracted with the Table Information into the CSV file.
 4. Better ROI(Region of Interest) extraction and higher text rejection rate. 
 
 ### OUTPUT
-*Generated output CSV files in PDF/generated_output folder*
+*Generated output CSV files in PDF Module/pdfname*
 
 
 
