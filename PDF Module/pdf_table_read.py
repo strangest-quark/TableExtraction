@@ -29,7 +29,7 @@ for i in range(0,pag_no):
 time.sleep(0.2)
 
 for i in range(0,pag_no):
-    convert_into('Page_'+str(i)+'.pdf', 'result_'+str(i)+'.csv', output_format = 'CSV')
+    convert_into('Page_'+str(i+1)+'.pdf', 'result_'+str(i)+'.csv', output_format = 'CSV')
 
 for i in range(0,pag_no):
     try:
