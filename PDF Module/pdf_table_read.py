@@ -1,3 +1,22 @@
+" The below code does the following jobs 
+  
+
+
+
+
+
+
+
+
+
+"
+
+
+
+
+
+
+
 from tabula import *
 import pyPdf,os, time
 import pandas as pd
