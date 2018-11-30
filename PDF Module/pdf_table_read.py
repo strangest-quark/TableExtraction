@@ -1,19 +1,10 @@
-" The below code does the following jobs 
-  
-
-
-
-
-
-
-
-
-
-"
-
-
-
-
+"""
+It includes the following stages:
+1. Load the PDF file using pyPDF module.
+2. Give a little preprocessing to reduce noise in the pages. 
+3. Iterate through the pages and save all the individual pages.
+4. Tabula-py recognises the tables and export it to a csv using pandas.
+"""
 
 
 
