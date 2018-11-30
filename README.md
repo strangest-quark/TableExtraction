@@ -77,6 +77,8 @@ Image of result extracted with the Table Information into the CSV file.
 *Generated output CSV files in PDF/generated_output folder*
 
 
+
+
 ## Image Module - Extracting table data from Images
 
 ### Step 1: Generate Searchable PDF from image using OCR
