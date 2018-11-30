@@ -1,0 +1,4 @@
+Python == 2.7 | 3.6
+Java Runtime Environment >= 8.0 
+tabula-py == 1.31
+pyPDF >= 1.13
