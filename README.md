@@ -30,7 +30,7 @@ Now, all the pages present in the pdf are segmented individually with the name `
 
 **Sample Page Segmentation view**
 
-![image](https://drive.google.com/file/d/1bgM2aXnMoRnO-EfRv-c-2xGAD2WE7dyY/view?usp=sharing)
+![image](https://drive.google.com/uc?export=view&id=1bgM2aXnMoRnO-EfRv-c-2xGAD2WE7dyY)
 
 ### Step 2: Iterating and extracting tables from all PDF's using tabula-py
 
@@ -59,18 +59,19 @@ The above shown is the format of output result logging which contains the table 
 
 ### Step 4: Complete sample Output
 
-![image](https://drive.google.com/file/d/1yU2iDmcxB4ULMq07qstO71qZsd9mXjB7/view?usp=sharing) 
-
 PDF file with table in it's 3rd Page.
 
-![image](https://drive.google.com/file/d/1V3-rMcZffvQZHSR13A3C40DwefsSN5YV/view?usp=sharing)
+![image](https://drive.google.com/uc?export=view&id=1yU2iDmcxB4ULMq07qstO71qZsd9mXjB7) 
 
 Image of result extracted with the Table Information into the CSV file.
+
+![image](https://drive.google.com/uc?export=view&id=1V3-rMcZffvQZHSR13A3C40DwefsSN5YV)
 
 ### Advantages of PDF Module: 
 1. No Preprocesssing of PDF's is required.
 2. Faster processing due to Page segmentation technique.
 3. Higher Accuracy to even noisy pages. 
+4. Better ROI(Region of Interest) extraction and higher text rejection rate. 
 
 ### OUTPUT
 *Generated output CSV files in PDF/generated_output folder*
