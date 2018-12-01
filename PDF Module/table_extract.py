@@ -30,6 +30,7 @@ time.sleep(0.2)
 
 for i in range(0,pag_no):
     convert_into('Page_'+str(i)+'.pdf', 'result_'+str(i)+'.csv', output_format = 'CSV')
+    convert_into('Page_'+str(i)+'.pdf', 'result_'+str(i)+'.xml', output_format = 'xml')
 
 for i in range(0,pag_no):
     try:
@@ -41,6 +42,8 @@ for i in range(0,pag_no):
     except:
         os.remove('/home/Username/Desktop/TableExtraction/Page_'+str(i)+'.pdf')
         os.remove('/home/Username/Desktop/TableExtraction/result_'+str(i)+'.csv')
+        os.remove('/home/Username/Desktop/TableExtraction/result_'+str(i)+'.xml')
+
         pass
 
 
