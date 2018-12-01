@@ -39,6 +39,7 @@ Tabula-py is a python library which is written upon the java. It uses python com
 ```
     for i in range(0,pag_no): 
         convert_into('Page_'+str(i)+'.pdf', 'result_'+str(i)+'.csv', output_format = 'CSV')
+        convert_into('Page_'+str(i)+'.pdf', 'result_'+str(i)+'.xml', output_format = 'xml')
 ``` 
  
 The above code is used to iterate over all the ``` Page_.pdf ``` files to extract the table data.
