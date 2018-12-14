@@ -1,5 +1,20 @@
 # TableExtraction
 A solution to extract tabular data from PDF and Image Files
+
+## Installation and Setup
+
+### NOTE : Python2 environment
+
+Install Requirements
+```
+pip install -r requirements.txt
+```
+Run flask app (server)
+```
+sudo python app.py
+```
+Web app - Open webapp/home.html in browser
+
 ## PDF Module - Extracting tables from PDF
 
 ### Step 1: Loading the PDF using pyPDF module
