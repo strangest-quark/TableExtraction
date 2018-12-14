@@ -4,4 +4,6 @@ opencv-python==3.2.0.6
 pandas==0.19.2
 pytest==3.0.6
 pyPdf==1.13
-pdftabextract=0.3.0
+pdftabextract==0.3.0
+Flask==1.0.2
+Flask-Cors==3.0.7
